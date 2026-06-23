@@ -31,7 +31,7 @@ We can adjust parameters w and b to improve our model
 
 >Q. But how do we find values of w and b such that the straight line fit or our estimated prediction is closer to the true value of y 
 
-For this we use the Cost Function (Squared Error Cost Function) where we compare the
+For this we use the **Cost Function (Squared Error Cost Function)** where we compare the
 $\hat{y}$ to y 
 
 
@@ -40,7 +40,7 @@ $$ J^{(w,b)} = \frac{1}{2m} \sum_{i = 1}^{m}(\hat{y}^{(i)} - y^{i})^{2} $$
 So we would like to minimize the value of J as small as possible as a function of w and b
 i.e.  $$\underset{w,b} {\text{minimize}} J(w, b)$$
 
-Gradient Descent Algorithm - To minimize any function and other cost functions with one or more parameters.
+**Gradient Descent Algorithm -** To minimize any function and other cost functions with one or more parameters.
 > **Note:** for some functions there can be more than one minimum and the shape may not be convex bell.
 
 Here we update the value w to 
